@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Lab1_class
+namespace Lab1_classroom
 {
     class Money
     {

@@ -34,8 +34,8 @@ namespace Lab1
         public int DisplayMenu()
         {
             Console.WriteLine("==========================\n" +
-                              "1. Ввести адресс полностью.\n" +
-                              "2. Вывести адресс.\n" +
+                              "1. Ввести адрес полностью.\n" +
+                              "2. Вывести адрес.\n" +
                               "3. Ввести страну.\n" +
                               "4. Ввести город.\n" +
                               "5. Ввести улицу.\n" +
@@ -54,6 +54,7 @@ namespace Lab1
     {
         private static void Main()
         {
+            Console.Title = "Лабораторная работа №1";
             var address = new Address();
             int userInput;
 
